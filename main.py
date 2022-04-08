@@ -2,7 +2,6 @@ from flask import Flask, render_template,request
 import requests
 from bs4 import BeautifulSoup
 import nltk 
-nltk.download('stopwords')
 from nltk.corpus import stopwords
 import pandas as pd
 
