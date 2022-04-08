@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import nltk 
 import pandas as pd
 
+
 app = Flask(__name__, template_folder= 'template')
 
 def get_wiki_content(url):
